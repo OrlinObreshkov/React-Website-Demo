@@ -13,6 +13,9 @@ function MainNav() {
         <li className={classes["li-element"]}>
           <a className={classes['a-element']} href="#" data-replace='About'><span>About</span></a>
         </li>
+        <li className={classes["li-element"]}>
+          <a className={classes['a-element']} href="#" data-replace='Contacts'><span>Contacts</span></a>
+        </li>
       </ul>
     </nav>
   );

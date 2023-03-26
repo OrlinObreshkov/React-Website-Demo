@@ -1,0 +1,9 @@
+.tweets {
+    flex: 0 0 33.33%;
+    padding: 20px;
+}
+
+.tweets-header {
+    text-align: center;
+    margin-bottom: 50px;
+}

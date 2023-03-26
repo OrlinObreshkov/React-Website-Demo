@@ -17,7 +17,7 @@ function ServiceList() {
   return (
     <section className={classes['section-services']}>
       <ServicesTitle />
-      <div className={classes["service-list"]}>{services}</div>;
+      <div className={classes["service-list"]}>{services}</div>
     </section>
   );
 }

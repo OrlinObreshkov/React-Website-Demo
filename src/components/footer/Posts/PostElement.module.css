@@ -1,0 +1,14 @@
+.post {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px rgba(128, 128, 128, 0.2);
+}
+
+.post a {
+    color: #fff;
+    transition: 0.3s;
+}
+
+.post a:hover {
+    color: #df7366;
+}

@@ -1,0 +1,15 @@
+.photos {
+  flex: 0 0 33.33%;
+  padding: 20px;
+}
+
+.photos-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.photos-header {
+  text-align: center;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,13 @@
+.posts {
+    flex: 0 0 33.33%;
+    padding: 20px;
+}
+
+.posts-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.posts-body {
+    text-align: center;
+}
