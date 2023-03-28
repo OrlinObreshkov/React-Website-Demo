@@ -1,8 +1,8 @@
 import MainHeader from "../header/MainHeader";
 import Hero from "../hero/Hero";
-import classes from "./LayoutHeader.module.css";
+import classes from "./LayoutHero.module.css";
 
-function LayoutHeader(props) {
+function LayoutHero(props) {
   return (
     <div className={classes.layout}>
       <MainHeader />
@@ -12,4 +12,4 @@ function LayoutHeader(props) {
   );
 }
 
-export default LayoutHeader;
+export default LayoutHero;
