@@ -1,6 +1,6 @@
 .form {
   background: #fff;
-  width: 500px;
+  width: 700px;
   margin: 65px auto;
   display: -webkit-box;
   display: flex;
@@ -67,7 +67,8 @@
 }
 
 .button:hover {
-  background: #d8d8d8;
+  background: #df7366;
+  color: #fff
 }
 
 .error {
