@@ -1,0 +1,15 @@
+.article-element {
+    margin-bottom: 20px;
+}
+
+.article-element-container {
+    display: flex;
+}
+
+.article-img {
+    flex: 0 0 30%;
+}
+
+.article-content {
+    flex: 0 0 70%;
+}

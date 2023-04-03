@@ -9,6 +9,7 @@ import Logo from "./components/logo/Logo";
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import Footer from "./components/footer/Footer";
+import ArticlesPage from "./pages/ArticlesPage";
 
 function App() {
   const { showForm, showLogo } = useSelector((state) => state.checker);
@@ -27,6 +28,7 @@ function App() {
         <LayoutMain>
           <Routes>
             <Route path="/" element={<HomePage />} />
+            <Route path="/articles" element={<ArticlesPage />} />
           </Routes>
         </LayoutMain>
         <LayoutFooter>

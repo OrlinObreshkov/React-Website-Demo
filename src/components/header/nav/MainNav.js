@@ -14,6 +14,7 @@ function MainNav() {
     dispatch(checkReducerSliceActions.showLogo())
   }
 
+
   return (
     <nav className={classes.nav}>
       <ul className={classes["ul-flex"]}>
@@ -21,7 +22,7 @@ function MainNav() {
           <NavLink onClick={showLogoHandler} className={classes['a-element']} to='/' data-replace='Home'><span>Home</span></NavLink>
         </li>
         <li className={classes["li-element"]}>
-          <a className={classes['a-element']} href="#" data-replace='Articles'><span>Articles</span></a>
+          <NavLink className={classes['a-element']} to='/articles' data-replace='Articles'><span>Articles</span></NavLink>
         </li>
         <li className={classes["li-element"]}>
           <a className={classes['a-element']} href="#" data-replace='About'><span>About</span></a>

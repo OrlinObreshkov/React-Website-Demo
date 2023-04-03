@@ -10,3 +10,7 @@
   overflow: hidden;
 }
 
+.header a {
+  font-size: 16px;
+}
+

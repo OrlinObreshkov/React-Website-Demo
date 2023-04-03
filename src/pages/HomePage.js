@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import MainArticle from "../components/articles/MainArticle";
+import HomeArticle from "../components/articles/HomeArticle";
 import Banner from "../components/banner/Banner";
 import CarouselSlider from "../components/carousel/CarouselSlider";
 import ServiceList from "../components/services/ServicesList";
@@ -9,7 +9,7 @@ function HomePage() {
     <Fragment>
       <Banner />
       <CarouselSlider />
-      <MainArticle />
+      <HomeArticle />
       <ServiceList />
     </Fragment>
   );

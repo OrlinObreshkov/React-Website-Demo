@@ -1,8 +1,8 @@
-import classes from './MainArticle.module.css'
+import classes from './HomeArticle.module.css'
 import articleimg from '../../assets/images/article.jpg'
 import ButtonRectangular from '../UI/buttons/ButtonRectangular';
 
-function MainArticle() {
+function HomeArticle() {
   return (
     <article className={classes.article}>
       <div className={classes['article-container']}>
@@ -43,4 +43,4 @@ function MainArticle() {
   );
 }
 
-export default MainArticle;
+export default HomeArticle;
