@@ -1,6 +1,6 @@
 import classes from './HomeArticle.module.css'
 import articleimg from '../../assets/images/article.jpg'
-import ButtonRectangular from '../UI/buttons/ButtonRectangular';
+import ButtonBig from '../UI/buttons/ButtonBig';
 
 function HomeArticle() {
   return (
@@ -36,7 +36,7 @@ function HomeArticle() {
           </p>
         </div>
         <div className={classes['article-foot']}>
-            <ButtonRectangular>Continue Reading</ButtonRectangular>
+            <ButtonBig>Continue Reading</ButtonBig>
         </div>
       </div>
     </article>

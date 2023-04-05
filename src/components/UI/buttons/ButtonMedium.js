@@ -1,9 +1,9 @@
-import classes from './ButtonCirlce.module.css'
+import classes from './ButtonMedium.module.css'
 
-function ButtonCirlce(props) {
+function ButtonMedium(props) {
     return (
         <button className={`${classes.btn} ${classes.btn01}`}>{props.children}</button>
     )
 }
 
-export default ButtonCirlce
+export default ButtonMedium

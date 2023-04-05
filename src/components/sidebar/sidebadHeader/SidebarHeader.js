@@ -1,10 +1,9 @@
 import classes from './SidebarHeader.module.css'
-import { Fragment } from "react";
-import ButtonSmall from "../../UI/buttons/ButtonSmall";
+import ButtonSidebar from '../../UI/buttons/ButtonSidebar';
 
 function SidebarHeader() {
   return (
-    <Fragment>
+    <div className={classes['sidebar-header']}>
       <div>
         <h4>Accumsan sed penatibus</h4>
       </div>
@@ -15,9 +14,9 @@ function SidebarHeader() {
           ultrices tempor sagittis tellus ante diam nec penatibus dolor cras
           magna tempus feugiat veroeros.
         </p>
-        <ButtonSmall>Learn More</ButtonSmall>
       </div>
-    </Fragment>
+        <ButtonSidebar>Learn More</ButtonSidebar>
+    </div>
   );
 }
 

@@ -12,4 +12,5 @@
 
 .article-content {
     flex: 0 0 70%;
+    margin-left: 20px;
 }

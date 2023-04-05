@@ -5,7 +5,7 @@ function ArticleElement(props) {
     <li className={classes['article-element']}>
       <div className={classes['article-element-container']}>
         <div className={classes['article-img']}>
-          <img src={props.img}></img>
+          <a href='#'><img src={props.img}></img></a>
         </div>
         <div className={classes['article-content']}>
           <h4>{props.title}</h4>
