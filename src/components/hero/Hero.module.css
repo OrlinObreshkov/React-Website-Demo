@@ -5,6 +5,13 @@
   height: 100vh;
 }
 
+.small-hero {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 20vh;
+}
+
 
 .hero-image {
   width: 100%;

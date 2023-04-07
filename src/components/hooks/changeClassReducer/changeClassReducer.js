@@ -6,9 +6,13 @@ const changeClassReducer = createSlice({
   name: "class",
   initialState: initialState,
   reducers: {
-    changeClass(state, action) {
-      state.className = action.payload;
+    reduceHeroImage(state) {
+      state.className = 'small-hero'
     },
+
+    originalHeroImage(state) {
+      state.className = 'hero-image-container'
+    }
   },
 });
 

@@ -5,7 +5,7 @@ function MainArticle() {
   return (
     <section className={classes['main-article']}>
       <div className={classes['main-article-head']}>
-        <h2>Left Sidebar</h2>
+        <h2>Main Article</h2>
         <p>Morbi convallis lectus malesuada sed fermentum dolore amet</p>
       </div>
       <div>

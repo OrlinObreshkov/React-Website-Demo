@@ -14,6 +14,10 @@ const checkReducerSlice = createSlice({
     showLogo(state) {
       state.showForm = false
       state.showLogo = true
+    },
+
+    hideLogo(state) {
+      state.showLogo = false
     }
   },
 });
