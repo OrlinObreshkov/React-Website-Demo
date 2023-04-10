@@ -1,5 +1,7 @@
+import classes from './LayoutMain.module.css'
+
 function LayoutMain(props) {
-  return <main>{props.children}</main>;
+  return <main className={classes.main}>{props.children}</main>;
 }
 
 export default LayoutMain;

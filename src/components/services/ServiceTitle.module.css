@@ -1,15 +1,25 @@
 .service-title {
-    text-align: center;
+  text-align: center;
 }
 
-.service-title h2 {  
-    font-size: 55px;
-    margin-bottom: 30px;
-    font-weight: normal;
+.service-title h2 {
+  font-size: 55px;
+  margin-bottom: 30px;
+  font-weight: normal;
 }
 
 .service-title p {
-    font-size: 30px;
-    margin-bottom: 50px;
-    font-weight: lighter;
+  font-size: 30px;
+  margin-bottom: 50px;
+  font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+    .service-title h2 {
+        font-size: 35px;
+    }
+
+    .service-title p {
+        font-size: 25px;
+    }
 }

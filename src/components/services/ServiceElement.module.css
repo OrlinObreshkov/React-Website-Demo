@@ -107,3 +107,12 @@
 .service-card-btn {
   margin-top: auto;
 }
+
+
+@media (max-width: 768px) {
+  .service-card {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+  }
+}

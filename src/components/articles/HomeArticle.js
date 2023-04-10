@@ -4,7 +4,7 @@ import ButtonBig from '../UI/buttons/ButtonBig';
 
 function HomeArticle() {
   return (
-    <article className={classes.article}>
+    <section className={classes.article}>
       <div className={classes['article-container']}>
         <div className={classes['article-image-container']}>
           <a href="#">
@@ -39,7 +39,7 @@ function HomeArticle() {
             <ButtonBig>Continue Reading</ButtonBig>
         </div>
       </div>
-    </article>
+    </section>
   );
 }
 
