@@ -1,6 +1,6 @@
-import classes from "./Banner.module.css";
+import classes from "./MainBanner.module.css";
 
-function Banner() {
+function MainBanner() {
   return (
     <div className={classes.banner}>
       <h1 className={classes.h1}>
@@ -14,4 +14,4 @@ function Banner() {
   );
 }
 
-export default Banner;
+export default MainBanner;

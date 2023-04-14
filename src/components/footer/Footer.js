@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import classes from "./Footer.module.css";
 import FooterSocials from "./footerSocials/FooterSocials";
 import PhotosList from "./Photos/PhotosList";
@@ -7,7 +6,7 @@ import TwittertsList from "./Tweets/TwitterList";
 
 function Footer() {
   return (
-    <Fragment>
+    <footer className={classes.footer}>
       <div className={classes["footer-inner"]}>
         <TwittertsList />
         <PostsList />
@@ -17,7 +16,7 @@ function Footer() {
         <hr />
         <FooterSocials />
       </div>
-    </Fragment>
+    </footer>
   );
 }
 

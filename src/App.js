@@ -5,7 +5,7 @@ import { useSelector } from "react-redux";
 import LayoutHero from "./components/layout/LayoutHero";
 import LayoutMain from "./components/layout/LayoutMain";
 import LayoutFooter from "./components/layout/LayoutFooter";
-import Logo from "./components/logo/Logo";
+import HeroBanner from './components/heroBanner/HeroBanner'
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import Footer from "./components/footer/Footer";
@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <Fragment>
         <LayoutHero>
-          {showLogo && <Logo />}
+          {showLogo && <HeroBanner />}
           {showForm && (
             <Routes>
               <Route path="/login" element={<LoginPage />} />

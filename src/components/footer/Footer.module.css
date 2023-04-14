@@ -23,3 +23,10 @@
   border-left: none;
   border-right: none;
 }
+
+@media (max-width: 768px) {
+  .footer-inner {
+    display: block;
+    text-align: center;
+  }
+}

@@ -14,7 +14,7 @@ export const DummyPhotosData = [
   },
   {
     id: "5",
-    img: "https://images.pexels.com/photos/1045113/pexels-photo-1045113.jpeg?cs=srgb&dl=pexels-jean-frenna-1045113.jpg&fm=jpg",
+    img: "https://images.pexels.com/photos/1049298/pexels-photo-1049298.jpeg?cs=srgb&dl=pexels-maria-isabella-bernotti-1049298.jpg&fm=jpg",
   },
   {
     id: "6",
