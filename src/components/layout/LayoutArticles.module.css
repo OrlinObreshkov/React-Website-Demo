@@ -4,3 +4,10 @@
     display:  flex;
     padding: 80px 0;
 }
+
+@media (max-width: 768px) {
+    .layout-articles {
+        display: table;
+        padding: 50px 0;
+    }
+}

@@ -1,5 +1,5 @@
 import classes from './SidebarHeader.module.css'
-import ButtonSidebar from '../../UI/buttons/ButtonSidebar';
+import ButtonBig from '../../UI/buttons/ButtonBig';
 
 function SidebarHeader() {
   return (
@@ -15,7 +15,7 @@ function SidebarHeader() {
           magna tempus feugiat veroeros.
         </p>
       </div>
-        <ButtonSidebar>Learn More</ButtonSidebar>
+        <ButtonBig>Learn More</ButtonBig>
     </div>
   );
 }

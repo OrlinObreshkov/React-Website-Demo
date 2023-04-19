@@ -27,3 +27,23 @@
 .main-article-image {
   width: 100%;
 }
+
+
+@media (max-width: 768px) {
+  .main-article {
+    padding: 0;
+    display: table-header-group;
+  }
+
+  .main-article-head {
+    text-align: center;
+  }
+
+  .main-article-head h2 {
+    font-size: 30px;
+  }
+
+  .main-article-head p {
+    font-size: 20px;
+  }
+}

@@ -14,3 +14,13 @@
     flex: 0 0 70%;
     margin-left: 20px;
 }
+
+@media (max-width: 768px) {
+    .article-img {
+        flex: 0 0 40%;
+    }
+
+    .article-content {
+        flex: 0 0 60%;
+    }
+}
