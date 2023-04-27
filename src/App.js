@@ -5,11 +5,12 @@ import { useSelector } from "react-redux";
 import LayoutHero from "./components/layout/LayoutHero";
 import LayoutMain from "./components/layout/LayoutMain";
 import LayoutFooter from "./components/layout/LayoutFooter";
-import HeroBanner from './components/heroBanner/HeroBanner'
+import HeroBanner from "./components/heroBanner/HeroBanner";
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import Footer from "./components/footer/Footer";
 import ArticlesPage from "./pages/ArticlesPage";
+import AboutPage from "./pages/AboutPage";
 
 function App() {
   const { showForm, showLogo } = useSelector((state) => state.checker);
@@ -29,6 +30,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/articles" element={<ArticlesPage />} />
+            <Route path="/about" element={<AboutPage />} />
           </Routes>
         </LayoutMain>
         <LayoutFooter>

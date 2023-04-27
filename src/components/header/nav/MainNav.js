@@ -8,28 +8,34 @@ import { mobileNavActions } from "../../hooks/navbarResponsiveReducer/navbarResp
 
 function MainNav() {
   const dispatch = useDispatch();
-  const mobileNavClass = useSelector((state) => state.mobileNav.mobileNav)
+  const mobileNavClass = useSelector((state) => state.mobileNav.mobileNav);
 
   function showLoginFormHandler() {
     dispatch(checkReducerSliceActions.showLoginForm());
     dispatch(changeClassReducerActions.originalHeroImage());
-    dispatch(mobileNavActions.mobileNavClose())
+    dispatch(mobileNavActions.mobileNavClose());
   }
 
   function showLogoHandler() {
     dispatch(checkReducerSliceActions.showLogo());
     dispatch(changeClassReducerActions.originalHeroImage());
-    dispatch(mobileNavActions.mobileNavClose())
+    dispatch(mobileNavActions.mobileNavClose());
   }
 
   function showArticlesHandler() {
     dispatch(changeClassReducerActions.reduceHeroImage());
     dispatch(checkReducerSliceActions.hideLogo());
-    dispatch(mobileNavActions.mobileNavClose())
+    dispatch(mobileNavActions.mobileNavClose());
+  }
+
+  function showAboutHandler() {
+    dispatch(changeClassReducerActions.reduceHeroImage());
+    dispatch(checkReducerSliceActions.hideLogo());
+    dispatch(mobileNavActions.mobileNavClose());
   }
 
   function closeMobileNavHandler() {
-    dispatch(mobileNavActions.mobileNavClose())
+    dispatch(mobileNavActions.mobileNavClose());
   }
 
   return (
@@ -56,9 +62,14 @@ function MainNav() {
           </NavLink>
         </li>
         <li className={classes["li-element"]}>
-          <a className={classes["a-element"]} href="#" data-replace="About">
+          <NavLink
+            onClick={showAboutHandler}
+            className={classes["a-element"]}
+            to="/about"
+            data-replace="About"
+          >
             <span>About</span>
-          </a>
+          </NavLink>
         </li>
         <li className={classes["li-element"]}>
           <a className={classes["a-element"]} href="#" data-replace="Contacts">
@@ -76,8 +87,8 @@ function MainNav() {
           </NavLink>
         </li>
       </ul>
-      <button onClick={closeMobileNavHandler} className={classes['close-btn']}>
-        <FaTimes/>
+      <button onClick={closeMobileNavHandler} className={classes["close-btn"]}>
+        <FaTimes />
       </button>
     </nav>
   );

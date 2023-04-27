@@ -21,7 +21,7 @@ function MainHeader() {
   }
 
   function changeHeaderOnscrollColor() {
-    if (window.scrollY > 800) {
+    if (window.scrollY > 100) {
       dispatch(changeHeaderOnscrollActions.onscrollHeader())
     } else {
       dispatch(changeHeaderOnscrollActions.mainHeader())
