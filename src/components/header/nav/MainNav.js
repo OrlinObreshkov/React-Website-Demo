@@ -16,6 +16,12 @@ function MainNav() {
     dispatch(mobileNavActions.mobileNavClose());
   }
 
+  function showContactsFormHandler() {
+    dispatch(checkReducerSliceActions.showContactsForm());
+    dispatch(changeClassReducerActions.originalHeroImage());
+    dispatch(mobileNavActions.mobileNavClose());
+  }
+
   function showLogoHandler() {
     dispatch(checkReducerSliceActions.showLogo());
     dispatch(changeClassReducerActions.originalHeroImage());
@@ -72,9 +78,14 @@ function MainNav() {
           </NavLink>
         </li>
         <li className={classes["li-element"]}>
-          <a className={classes["a-element"]} href="#" data-replace="Contacts">
+          <NavLink
+          onClick={showContactsFormHandler}
+            className={classes["a-element"]}
+            to="/contacts"
+            data-replace="Contacts"
+          >
             <span>Contacts</span>
-          </a>
+          </NavLink>
         </li>
         <li className={classes["li-element"]}>
           <NavLink

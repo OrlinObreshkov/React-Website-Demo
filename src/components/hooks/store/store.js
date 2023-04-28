@@ -5,6 +5,7 @@ import loginReducer from "../loginReducer/loginReducer"
 import sessionStorageReducer from "../sessionStorageReducer/sessionStorageReducer"
 import navbarResponsiveReducer from "../navbarResponsiveReducer/navbarResponsiveReducer"
 import changeHeaderOnscrollReducer from "../changeOnscrollHeaderReducer/changeHeaderOnscrollReducer"
+import contactsReducer from "../contactsReducer/contactsReducer"
 
 const store = configureStore({
     reducer: {
@@ -13,7 +14,8 @@ const store = configureStore({
         session: sessionStorageReducer,
         class: changeClassReducer,
         mobileNav: navbarResponsiveReducer,
-        onscrollHeader: changeHeaderOnscrollReducer
+        onscrollHeader: changeHeaderOnscrollReducer,
+        contacts: contactsReducer,
     }
 })
 

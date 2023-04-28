@@ -11,9 +11,11 @@ import LoginPage from "./pages/LoginPage";
 import Footer from "./components/footer/Footer";
 import ArticlesPage from "./pages/ArticlesPage";
 import AboutPage from "./pages/AboutPage";
+import ContactsPage from './pages/ContactsPage';
+
 
 function App() {
-  const { showForm, showLogo } = useSelector((state) => state.checker);
+  const { showForm, showLogo, showContacts } = useSelector((state) => state.checker);
 
   return (
     <div className="App">
@@ -23,6 +25,11 @@ function App() {
           {showForm && (
             <Routes>
               <Route path="/login" element={<LoginPage />} />
+            </Routes>
+          )}
+          {showContacts && (
+            <Routes>
+              <Route path="/contacts" element={<ContactsPage/>} />
             </Routes>
           )}
         </LayoutHero>
